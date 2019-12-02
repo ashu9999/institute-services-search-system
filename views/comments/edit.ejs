@@ -11,7 +11,78 @@
 	<link rel="stylesheet" type="text/css" href="/stylesheets/css/util.css">
 </head>
 <body>
+	<div class="limiter">
+		<div class="container-login100" style="background-image: url('https://ak8.picdn.net/shutterstock/videos/8137888/thumb/1.jpg');">
+			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
+				<form action="/campgrounds/<%= campground_id %>/comments/<%= comment._id %>?_method=PUT" method="POST">
+					<span class="login100-form-title p-b-49">
+						Edit Comment
+					</span>
+
+					<div class="wrap-input100 validate-input m-b-23" data-validate = "Username is required">
+						<span class="label-input100">             </span>
+                        <input class="input100" type="text" name="comment[text]" placeholder="Your comment">
+                        
+						<span class="focus-input100" data-symbol="&#xf206;"></span>
+                    </div>
+
+                    <br>
+					
+					<div class="container-login100-form-btn">
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbtn"></div>
+							<button class="login100-form-btn">
+                                Submit   
+							</button>
+							
+						</div>
+					</div>
+
+
+				</form>
+				<a href="/campgrounds">Go Back</a>
+			</div>
+		</div>
+	</div>
 	
+
+	<div id="dropDownSelect1"></div>
+	
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+    <!-- <div class="container">
+            <div class="row">
+                <h1 style="text-align: center">Edit Comment</h1>
+                <div style="width: 30%; margin: 25px auto;">
+                    <form action="/campgrounds/<%= campground_id %>/comments/<%= comment._id %>?_method=PUT" method="POST">
+                        <div class="form-group">
+                            <input class="form-control" type="text" name="comment[text]" value="<%= comment.text %>">
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-lg btn-primary btn-block">Submit!</button>
+                        </div>
+                    </form>
+                    <a href="/campgrounds">Go Back</a>
+                </div>
+            </div>
+        </div>
+        <% include ../partials/footer %> -->
+        
 	
         
 </body>
