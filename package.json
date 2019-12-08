@@ -1,5 +1,5 @@
 {
-  "name": "Institute Search System",
+  "name": "institute_search_system",
   "version": "1.0.0",
   "description": "Institute Search System provides status of all available items at one place",
   "main": "app.js",
@@ -8,7 +8,7 @@
     "start": "node app.js"
   },
   "author": "Ashutosh",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.14.1",
     "connect-flash": "^0.1.1",
