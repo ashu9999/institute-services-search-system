@@ -14,13 +14,13 @@ It finds the local databses of different department and fetchs the result.
 make sure you have Mongodb installed
 -> mongod  //in console
 
-![page1](https://github.com/ashu9999/institute_search_system\master\public\stylesheets\images\form.png)
+![page1](https://github.com/ashu9999/institute_search_system/blob/master/public/stylesheets/images/form.png)
 
-![page2](https://github.com/ashu9999/institute_search_system\master\public\stylesheets\images\inventory.png)
+![page2](https://github.com/ashu9999/institute_search_system/blob/master/public/stylesheets/images/inventory.png)
 
-![page3](https://github.com/ashu9999/institute_search_system\master\public\stylesheets\images\item.png)
+![page3](https://github.com/ashu9999/institute_search_system/blob/master/public/stylesheets/images/item.png)
 
-![page4](https://github.com/ashu9999/institute_search_system\master\public\stylesheets\images\landing.png)
+![page4](https://github.com/ashu9999/institute_search_system/blob/master/public/stylesheets/images/landing.png)
 
 
 
