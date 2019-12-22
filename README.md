@@ -14,7 +14,7 @@ It finds the local databses of different department and fetchs the result.
 make sure you have Mongodb installed
 -> mongod  //in console
 
-![page1](public\stylesheets\images\Screenshot (10).png)
+![page1](https://github.com/ashu9999/institute_search_system\master\public\stylesheets\images\Screenshot (10).png)
 
 ![page2](public\stylesheets\images\Screenshot (11).png)
 
