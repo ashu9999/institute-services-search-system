@@ -7,8 +7,8 @@ A search app that access the database to filter results.
 It finds the local databses of different department and fetchs the result.
 
 ### To run
--> npm install
--> node app
+ npm install 
+ node app
 
 ### To run Mongo server
 make sure you have Mongodb installed
